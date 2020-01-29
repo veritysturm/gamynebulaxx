@@ -17,8 +17,6 @@ const sections = [
   " My face goes still. I turn left and stare at the San Bruno for fifteen, reckoning. My coworker Margo catches" +
   " me dissociating into the dry anemone of that thirsty hill and attempts to throw me a buoy." +
   " “Still thinking about wandering out there, V?” She asks from across the desk.",
-  
-  "In this project I am railing against monogamy",
 
   "For a month or two I put air quotes around “dating” when I told people we were doing that. One of my friends eventually told me that was a terrible thing to do and I realized they were right.",
 
@@ -70,6 +68,8 @@ const sections = [
   " granting her a seemingly harmless experience she wanted so bad and deserved so hard and that I, seemingly, could provide in excess. About how I" +
   " was into it, physically, of course, as we all know. About how I recognized the double negatives, the mental gymnastics, the harmful untruths." +
   "“You just…” he started. “That’s just generous to an extreme.”",
+
+  "I started this project to rail against monogamy",
 
   "*Excerpt from never-sent letter. 12/2/18.* I remember laying on the floor in my living room, complaining to my roommates that I did not have" +
   " the energy or confidence to talk to you, again, on my porch. They told me to put in earrings and suck it up. I took a gin shot and met you" +
@@ -202,6 +202,7 @@ const sections = [
   "I had an assignment for a graphic design class, a “fast facts” slide feathered with a portrait and a couple adjectives describing you," +
   " a couple nouns you’re particularly fond of. Jacob is reading my adjectives. “‘logical, structured, impulsive... loyal?’” He looks at me." +
   " “Natalie gave me that one,” I explain. “She knows me in a different way, I think.”",
+
 ];
 
 function shuffle(array) {
