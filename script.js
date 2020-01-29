@@ -17,6 +17,8 @@ const sections = [
   " My face goes still. I turn left and stare at the San Bruno for fifteen, reckoning. My coworker Margo catches" +
   " me dissociating into the dry anemone of that thirsty hill and attempts to throw me a buoy." +
   " “Still thinking about wandering out there, V?” She asks from across the desk.",
+  
+  "In this project I am railing against monogamy",
 
   "For a month or two I put air quotes around “dating” when I told people we were doing that. One of my friends eventually told me that was a terrible thing to do and I realized they were right.",
 
