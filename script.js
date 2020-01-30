@@ -213,8 +213,25 @@ function shuffle(array) {
     return array;
 }
 
+function determineRandomHorizontalOffset(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+function determineOffsetSide() {
+  const arr = ['left', 'right'];
+  return arr[Math.floor(Math.random()*arr.length)];
+}
+
 function createSection(section) {
-  var node = document.createElement("p");
+  const node = document.createElement("p");
+  // Determine offset px amount
+  const offset = determineRandomHorizontalOffset(0, 450);
+  // Determine whether offset is right or left
+  const side = determineOffsetSide();
+
+  // Apply styling to new paragraph tag
+  node.setAttribute("style", "margin-" + side + ": " + offset + "px;");
+
   var text = document.createTextNode(section);
   node.appendChild(text);
   return node;
