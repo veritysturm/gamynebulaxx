@@ -4,7 +4,7 @@
 }
 
 article {
-  width: 50%;
+  width: 55%;
   margin: 5% auto 0 auto;
   font-family: 'EB Garamond', serif;
   font-size: 1.2em;
@@ -16,6 +16,8 @@ main h1 {
   font-style: italic;
   margin-bottom: 0.75em;
 }
+
 main p {
   margin-bottom: 2em;
+  text-align: center;
 }
